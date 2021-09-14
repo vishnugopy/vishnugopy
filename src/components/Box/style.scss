@@ -1,0 +1,11 @@
+@import '../../assets/main.scss';
+
+.box{
+    box-shadow: -1px 1px 7px -1px rgba(0,0,0,0.19);
+    color: $black;
+    padding: 1%;
+    margin: 2%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: $white;
+}
