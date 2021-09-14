@@ -1,11 +1,11 @@
 import './style.scss';
 
-const Box = () => {
+const Name = (props) => {
     return (
      <div className="box">
-         helllo
+         {props.children}
      </div>
     );
   }
   
-  export default Box;
+  export default Name;
