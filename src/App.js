@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 
 import Box from './components/Box';
@@ -7,6 +6,13 @@ import Profile from './components/Profile';
 import Formation from './components/Formation';
 import Experience from './components/Experience';
 import Competences from './components/Competences';
+import Loisir from './components/Loisir';
+import Langues from './components/Langues';
+import Call from './components/Call';
+import Mail from './components/Mail';
+import Github from './components/Github';
+import Linkedin from './components/Linkedin';
+import Twitter from './components/Twitter';
 
 function App() {
   return (
@@ -16,7 +22,13 @@ function App() {
       <Box children={<Formation/>} />
       <Box children={<Experience/>} />
       <Box children={<Competences/>} />
-     
+      <Box children={<Langues/>} />
+      <Box children={<Loisir/>} />
+      <Box children={<Call/>} />
+      <Box children={<Mail/>} />
+      <Box children={<Github/>} />
+      <Box children={<Linkedin/>} />
+      <Box children={<Twitter/>} />
     </main>
   );
 }
