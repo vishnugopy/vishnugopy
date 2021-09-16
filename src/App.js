@@ -1,4 +1,5 @@
 import './App.scss';
+import { useEffect , useState } from 'react';
 
 import Box from './components/Box';
 import Name from './components/Name';
@@ -15,6 +16,28 @@ import Linkedin from './components/Linkedin';
 import Twitter from './components/Twitter';
 
 function App() {
+
+  const [AllBoxes, setAllBoxes] = useState([]);
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+ 
+  useEffect(() => {
+    const Boxes = document.querySelectorAll('.box');
+    setAllBoxes(Boxes);
+  }, []);
+  
+  const width = window.screen.availWidth - 500;
+  const height = window.screen.availHeight - 700;
+  console.log(width);
+  console.log(height);
+
+  AllBoxes.forEach(element => {
+    element.style.position ="absolute";
+    element.style.left = getRandomInt(width) + "px";
+    element.style.top = getRandomInt(height) + "px"
+  });
+
   return (
     <main className="AppBody">
       <Box children={<Name/>} />
