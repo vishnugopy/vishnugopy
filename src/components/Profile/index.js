@@ -5,8 +5,12 @@ const Profile = (props) => {
     <div className="profile">
       <h2>PROFIL PERSONNEL</h2>
       <p>
-      Passionné par la programmation, J'aime travailler en équipe et Je suis motivet serieux
+      Passionné de programmation,
+      J'aime travailler en équipe
       </p>
+      <p>
+      et
+      je suis motivé et sérieux.</p>
     </div>
   );
 };
