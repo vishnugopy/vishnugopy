@@ -15,6 +15,8 @@ import Github from './components/Github';
 import Linkedin from './components/Linkedin';
 import Twitter from './components/Twitter';
 
+
+
 function App() {
 
   const [AllBoxes, setAllBoxes] = useState([]);
@@ -28,15 +30,16 @@ function App() {
   }, []);
   
   const width = window.screen.availWidth - 500;
-  const height = window.screen.availHeight - 700;
-  console.log(width);
-  console.log(height);
-
+  const height = window.screen.availHeight - 900;
+ 
   AllBoxes.forEach(element => {
     element.style.position ="absolute";
     element.style.left = getRandomInt(width) + "px";
     element.style.top = getRandomInt(height) + "px"
+    element.style.margin = 100 + "px";
   });
+
+  
 
   return (
     <main className="AppBody">

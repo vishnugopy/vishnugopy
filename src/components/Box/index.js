@@ -1,10 +1,13 @@
 import './style.scss';
+import Draggable from 'react-draggable';
 
 const Box = (props) => {
     return (
-     <section className="box">
+        <Draggable>
+     <section className="box" draggable="true">
          {props.children}
      </section>
+     </Draggable>
     );
   }
   
