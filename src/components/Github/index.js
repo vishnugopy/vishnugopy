@@ -1,5 +1,5 @@
 import "./style.scss";
-import GitHubIcon from '@material-ui/icons/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Github = () => {
   return (

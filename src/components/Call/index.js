@@ -1,5 +1,5 @@
 import "./style.scss";
-import CallRoundedIcon from "@material-ui/icons/CallRounded";
+import CallRoundedIcon from '@mui/icons-material/CallRounded';
 
 const Call = () => {
   return (

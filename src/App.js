@@ -14,6 +14,7 @@ import Mail from './components/Mail';
 import Github from './components/Github';
 import Linkedin from './components/Linkedin';
 import Twitter from './components/Twitter';
+import Footer from './components/Footer';
 
 
 
@@ -54,6 +55,7 @@ function App() {
       <Box children={<Github/>} />
       <Box children={<Linkedin/>} />
       <Box children={<Twitter/>} />
+      <Footer />
     </main>
   );
 }

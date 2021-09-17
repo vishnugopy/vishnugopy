@@ -1,5 +1,5 @@
 import "./style.scss";
-import TwitterIcon from '@material-ui/icons/Twitter';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Twitter = () => {
   return (
