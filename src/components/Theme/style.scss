@@ -1,0 +1,24 @@
+@import "../../assets/main.scss";
+
+.theme {
+
+  position: absolute;
+  width: 100%;
+  bottom: 2%;
+
+  div {
+    border-radius: 15px;
+    padding: 1%;
+    background: $white;
+    box-shadow: -1px 1px 7px -1px rgba(0, 0, 0, 0.19);
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    z-index: -10;
+  }
+  p {
+    margin: 0% 2%;
+  }
+}
