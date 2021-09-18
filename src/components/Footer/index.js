@@ -5,7 +5,6 @@ import Brightness4RoundedIcon from "@mui/icons-material/Brightness4Rounded";
 const Footer = () => {
   useEffect(() => {
     const toggle = document.getElementById("darktheme");
-    setThemeToggle(toggle);
 
     toggle.addEventListener("click", () => {
       document.documentElement.classList.toggle("darkhtml");

@@ -1,10 +1,10 @@
 import "./style.scss";
-import AlternateEmailRoundedIcon from '@material-ui/icons/AlternateEmailRounded';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 const Mail = () => {
   return (
     <div className="divider">
-        <AlternateEmailRoundedIcon />
+        <AlternateEmailIcon />
         <p>vishnugoby0010@gmail.com</p>
     </div>
   );
