@@ -1,6 +1,6 @@
 import "./style.scss";
 
-const Formation = (props) => {
+const Formation = () => {
   return (
     <div className="formation">
       <h2>FORMATIONS</h2>

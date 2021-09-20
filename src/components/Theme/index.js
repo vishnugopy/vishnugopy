@@ -12,12 +12,10 @@ const Theme = () => {
   }, []);
 
   return (
-    <div className="theme">
-      <div id="darktheme">
+      <div id="darktheme" className="theme">
         <Brightness4RoundedIcon />
         <p>ThemeToggle</p>
       </div>
-    </div>
   );
 };
 

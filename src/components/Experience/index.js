@@ -1,8 +1,8 @@
 import "./style.scss";
 
-const Experience = (props) => {
+const Experience = () => {
   return (
-    <div className="Experience">
+    <div className="experience">
       <h2>EXPÉRIENCES</h2>
 
       <div>
@@ -17,7 +17,6 @@ const Experience = (props) => {
           <li>Animation pour l’amélioration du site</li>
         </ul>
       </div>
-
       <div>
         <h3>Bpol.Net , POLOND</h3>
         <h3>

@@ -24,6 +24,7 @@ body{
 h1{
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 2vh;
 }
 
 h2{
@@ -31,11 +32,13 @@ h2{
   font-weight: 600;
   text-align: center;
   margin: 3% 0%;
+  font-size: 1.8vh;
 }
 
 h3{
   font-weight: 500;
   margin: 2% 0%;
+  font-size: 1.6vh;
 }
 
 
@@ -50,7 +53,8 @@ h3{
   input,
   label,
   button {
-    line-height: 200%;
+    line-height: 150%;
+    font-size: 1.4vh;
   }
   
   h1,
