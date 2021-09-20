@@ -14,6 +14,11 @@
   align-items: center;
   cursor: pointer;
   z-index: -10;
+  border: 2px solid $white;
+  &:hover {
+  border: 2px solid rgba(255, 0, 0, 0.267);
+
+  }
   p {
     margin: 0% 2%;
   }
