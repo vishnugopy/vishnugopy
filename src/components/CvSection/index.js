@@ -18,22 +18,27 @@ import Theme from "../CvComponents/Theme";
 
 function CV() {
   const [AllBoxes, setAllBoxes] = useState([]);
+  const [frame, setFrame] = useState("");
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
 
   useEffect(() => {
     const Boxes = document.querySelectorAll(".box");
+    const currentFrame = document.querySelector(".cvsection");
+    setFrame(currentFrame);
     setAllBoxes(Boxes);
   }, []);
 
-  const width = window.screen.availWidth - 300;
-  const height = window.screen.availHeight - 300;
+ 
+  const width = frame.offsetWidth-700;
 
   AllBoxes.forEach((element) => {
     element.style.position = "absolute";
-    element.style.left = getRandomInt(width) + "px";
-    element.style.top = getRandomInt(height) + "px";
+    for (let index = 0; index < 12; index++) {
+      element.style.left = `${getRandomInt(width)}px`;
+      element.style.margin = `${getRandomInt(200)}px`;
+    }
   });
 
   return (
