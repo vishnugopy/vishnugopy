@@ -1,0 +1,17 @@
+@import '../../../assets/main.scss';
+
+.box{
+    box-shadow: -1px 1px 7px -1px rgba(0,0,0,0.19);
+    color: $black;
+    padding: 1% 2%;
+    margin: 2%;
+    min-width: max-content;
+    border-radius: 10px;
+    background-color: $white;
+    cursor: grab;
+    border: 2px solid $white;
+    
+    &:hover{
+        border: 2px solid rgba(0, 89, 255, 0.301);
+    }
+}
