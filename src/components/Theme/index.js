@@ -14,7 +14,7 @@ const Theme = () => {
   return (
       <div id="darktheme" className="theme">
         <Brightness4RoundedIcon />
-        <p>ThemeToggle</p>
+        <p>Theme</p>
       </div>
   );
 };
