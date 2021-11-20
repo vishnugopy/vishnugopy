@@ -1,100 +1,89 @@
-
 $black: #000000;
 $white: #ffffff;
 $whitesmoke: whitesmoke;
 $grey: #bbbbbb;
 $firstbreakpoint: 1024px;
 
-
 //fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.darkhtml{
-filter: invert(100%) hue-rotate(180deg);
+.darkhtml {
+  filter: invert(100%) hue-rotate(180deg);
 }
 
-body{
-    background:whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 70%;
-    overflow-x: hidden;
-    margin: 0 auto;
-  }
-  
-
-h1{
-    text-transform: uppercase;
-    font-weight: 400;
-   
+body {
+  background: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
-h2{
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h2 {
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
   margin: 3% 0%;
-
 }
 
-h3{
+h3 {
   font-weight: 500;
   margin: 2% 0%;
- 
 }
 
+p,
+span,
+a,
+ul,
+li,
+details,
+summary,
+input,
+label,
+button {
+  line-height: 150%;
+}
 
+h1,
+h4,
+h5,
+span,
+p {
+  margin: 0%;
+}
 
-  p,
-  span,
-  a,
-  ul,
-  li,
-  details,
-  summary,
-  input,
-  label,
-  button {
-    line-height: 150%;
-    
-  }
-  
-  h1,
-  h4,
-  h5,
-  span,
+.divider {
+  color: $black;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   p {
-    margin: 0%;
+    padding: 1%;
   }
-
-  .divider{
-
-        color: $black;
-        font-weight: 500;
-        text-decoration: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        p{
-          padding: 1%;
-        }
-
 }
 
-.social{
+.social {
+  color: $black;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
-      color: $black;
-      font-weight: 500;
-      text-decoration: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-
-      p{
-        padding: 1%;
-      }
-
+  p {
+    padding: 1%;
+  }
 }
 
-
+main{
+  width: 60%;
+  margin:1% auto;
+}
