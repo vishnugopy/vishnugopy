@@ -11,7 +11,6 @@ function App() {
       <Header />
       <Hero />
     </main>
-      <CV />
     </section>
   );
 }

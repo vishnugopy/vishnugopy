@@ -3,7 +3,7 @@ import "./style.scss";
 function Header() {
   return (
    <header>
-       WEBSITE UNDER CONSTRUCTION
+       <p>WEBSITE UNDER CONSTRUCTION</p>
    </header>
   );
 }
