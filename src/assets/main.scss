@@ -16,6 +16,7 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   margin: 0 auto;
+  font-size:100%;
 }
 
 h1 {
@@ -45,7 +46,7 @@ summary,
 input,
 label,
 button {
-  line-height: 150%;
+  line-height: 100%;
 }
 
 h1,

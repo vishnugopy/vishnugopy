@@ -33,14 +33,6 @@ function CV() {
  
   const width = frame.offsetWidth-700;
 
-  AllBoxes.forEach((element) => {
-    element.style.position = "absolute";
-    for (let index = 0; index < 12; index++) {
-      element.style.left = `${getRandomInt(width)}px`;
-      element.style.margin = `${getRandomInt(200)}px`;
-    }
-  });
-
   return (
     <section className="cvsection">
       <Box children={<Name />} />

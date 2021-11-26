@@ -6,10 +6,13 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
+    <section>
     <main className="main">
       <Header />
       <Hero />
     </main>
+      <CV />
+    </section>
   );
 }
 
