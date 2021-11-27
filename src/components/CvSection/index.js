@@ -31,7 +31,15 @@ function CV() {
   }, []);
 
  
-  const width = frame.offsetWidth-700;
+  const width = window.screen.availWidth- 500;
+  const height = window.screen.availHeight - 300;
+ 
+  AllBoxes.forEach(element => {
+    element.style.position ="absolute";
+    element.style.left = getRandomInt(width) + "px";
+    element.style.top = getRandomInt(height) + "px"
+  });
+
 
   return (
     <section className="cvsection">
