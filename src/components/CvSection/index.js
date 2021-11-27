@@ -37,7 +37,7 @@ function CV() {
   AllBoxes.forEach(element => {
     element.style.position ="absolute";
     element.style.left = getRandomInt(width) + "px";
-    element.style.top = getRandomInt(height) + "px"
+    element.style.top = getRandomInt(height) + "px";
   });
 
 
