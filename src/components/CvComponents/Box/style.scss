@@ -10,7 +10,7 @@
     background-color: $white;
     cursor: grab;
     border: 2px solid $white;
-    
+    z-index: 1;
     &:hover{
         border: 2px solid rgba(0, 89, 255, 0.301);
     }
