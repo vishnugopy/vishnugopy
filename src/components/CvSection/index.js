@@ -22,16 +22,16 @@ function CV() {
   useEffect(() => {
     const Boxes = document.querySelectorAll(".box");
     setAllBoxes(Boxes);
-
-
-    
   }, []);
 
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
 
   for (let index = 0; index < AllBoxes.length; index++) {
     AllBoxes.forEach(element => {
       element.style.position ="absolute";
-      element.classList.add("box" + index);
+      element.style.animationDelay = index + "0" + getRandomInt(10) + "ms";
       index++;
     });
    }
