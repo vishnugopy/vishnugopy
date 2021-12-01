@@ -21,7 +21,7 @@ const Theme = () => {
   return (
     <div id="darktheme" className="theme">
       <Brightness4RoundedIcon />
-      <p id="themetext">Theme</p>
+      <p id="themetext">LightMode</p>
     </div>
   );
 };
