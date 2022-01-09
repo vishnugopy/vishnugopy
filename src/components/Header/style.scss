@@ -5,7 +5,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1% 5%;
+    padding: 5% 5%;
     background: $maincolor;
 
 
@@ -20,4 +20,13 @@ header{
             background-color: $halfwhite;
         }
     }
+}
+
+
+
+@media screen and (min-width: $firstbreakpoint) {
+    header{
+        padding: 1% 5%;
+
+  }
 }

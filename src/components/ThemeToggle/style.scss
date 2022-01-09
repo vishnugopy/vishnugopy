@@ -1,22 +1,35 @@
 @import "../../assets/main.scss";
 
 .theme-toggler {
+  .toggle {
+    width: 50px;
+    height: 25px;
+    background: $maincolor;
+    border:2px solid $white;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50px;
+
+    .round {
+      transition: all 0.5s ease-in;
+      border-radius: 50px;
+      width: 25px;
+      height: 25px;
+      background: white
+    }
+  }
+}
+
+@media screen and (min-width: $firstbreakpoint) {
+  .theme-toggler {
     .toggle {
-        border: 2px solid $maincolor;
       width: 80px;
       height: 40px;
-      background: $white;
-    
-      display: flex;
-      justify-content: flex-start;
-      border-radius: 50px;
-  
+
       .round {
-        transition: position 1s ease-in-out;
-        border-radius: 50px;
         width: 40px;
         height: 40px;
-        background: $black;
       }
     }
   }
+}

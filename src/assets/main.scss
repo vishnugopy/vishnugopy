@@ -6,7 +6,7 @@
   --shadow: #00000036;
   --whitesmoke: rgb(245, 245, 245);
   --maincolor: #007aff;
-  --maincolorhover: #007bff5b;
+  --maincolorhover: #007bff11;
 }
 
 .dark {
@@ -14,7 +14,7 @@
   --halfwhite: #0700003b;
   --black: #ffffff;
   --glace: #00000030;
-  --shadow: #ffffff36;
+  --shadow: #ffffff83;
   --whitesmoke: #131313;
   --maincolor: #007aff;
   --maincolorhover: #007bff5b;
@@ -40,10 +40,9 @@ $maincolorhover: var(--maincolorhover);
 }
 
 body {
-  background: $whitesmoke;
+  background: $white;
   font-family: "Mulish", sans-serif;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 h1 {
@@ -88,4 +87,12 @@ p {
 main {
   width: 60%;
   margin: 1% auto;
+}
+
+
+@media screen and (max-width: $firstbreakpoint) {
+  main {
+    width: 98%;
+    padding: 1%;
+  }
 }
