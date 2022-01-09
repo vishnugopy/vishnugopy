@@ -1,32 +1,40 @@
 @import "../../assets/main.scss";
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 5%;
+  background: $maincolor;
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5% 5%;
-    background: $maincolor;
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1%;
+    border-radius: 20px;
 
-
-    a{
-        color: white;
-        text-decoration: none;
-        font-weight: 600;
-        padding: 1%;
-        border-radius:20px;
-
-        &:hover{
-            background-color: $halfwhite;
-        }
+    &:hover {
+      background-color: $halfwhite;
     }
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .notfortel {
+    display: none;
+  }
 }
 
-
-
 @media screen and (min-width: $firstbreakpoint) {
-    header{
-        padding: 1% 5%;
+  header {
+    padding: 1% 5%;
 
+    .notfortel {
+        display: block;
+      }
   }
 }

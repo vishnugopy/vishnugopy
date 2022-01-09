@@ -1,7 +1,7 @@
 @import '../../../assets/main.scss';
 
 .box{
-    box-shadow: -1px 1px 7px -1px rgba(0,0,0,0.19);
+    box-shadow: -1px 1px 7px -1px $shadow;
     color: $black;
     padding: 1% 2%;
     width: max-content;
@@ -13,7 +13,7 @@
     z-index: 1;
     opacity: 0;
     &:hover{
-        border: 2px solid rgba(0, 89, 255, 0.301);
+        border: 2px solid $maincolorhover;
     }
     animation: slidein 1s forwards;
 }

@@ -1,22 +1,21 @@
 import "./style.scss";
-import {useEffect} from "react";
+import { useEffect } from "react";
+
+import SocialButtons from "../../components/SocialButtons";
 
 function PlayGround() {
-
   function randomHsl() {
-    return 'hsla(' + (Math.random() * 360) + ', 100%, 50%, 1)';
-}
+    return "hsla(" + Math.random() * 360 + ", 100%, 50%, 1)";
+  }
 
-    useEffect(() => {
-        const nameElement = document.querySelectorAll(".my-name h1");
-
-        nameElement.forEach(element => {
-          element.addEventListener("mouseover", () => {
-            element.style.color = randomHsl();
-          })
-        });
-    }, []);
-
+  useEffect(() => {
+    const nameElement = document.querySelectorAll(".my-name h1");
+    nameElement.forEach((element) => {
+      element.addEventListener("mouseover", () => {
+        element.style.color = randomHsl();
+      });
+    });
+  }, []);
 
   return (
     <section className="home">
@@ -33,12 +32,13 @@ function PlayGround() {
             <h1>O</h1>
             <h1>P</h1>
             <h1>Y</h1>
-            </div>
+          </div>
           <div className="positions">
             <span className="my-position">Développeur web</span>
-            <span className="my-position">Graphiste</span>
           </div>
+        <SocialButtons/>
         </div>
+
       </main>
     </section>
   );
