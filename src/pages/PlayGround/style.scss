@@ -4,58 +4,50 @@
   overflow: hidden;
   width: auto;
   margin: 0% auto;
-  padding: 5%;
+  padding: 3%;
+  font-size: 80%;
 }
 
 .box:nth-child(1) {
   top: 5%;
   left: 5%;
-  //fait
 }
 .box:nth-child(2) {
   top: 14%;
   left: 12%;
-  //fait
 }
 .box:nth-child(3) {
   top: 8%;
   left: 58%;
-  //fait
 }
 .box:nth-child(4) {
   top: 50%;
   left: 5%;
-  //fait
 }
 .box:nth-child(5) {
   top: 20%;
   left: 40%;
-  //fait
 }
 .box:nth-child(6) {
   top: 49%;
   left: 80%;
-  //fait
 }
 .box:nth-child(7) {
   top: 63%;
   left: 88%;
-  //fait
 }
 .box:nth-child(8) {
   top: 35%;
   left: 20%;
-  //fait
+  
 }
 .box:nth-child(9) {
   top: 80%;
   left: 70%;
-//fait mail
 }
 .box:nth-child(10) {
   top: 25%;
   left: 5%;
-  //fait github
 }
 .box:nth-child(11) {
   top: 5%;
@@ -64,4 +56,31 @@
 .box:nth-child(12) {
   top: 70%;
   left: 54%;
+}
+
+.divider {
+  color: $black;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    padding: 1%;
+  }
+}
+
+.social {
+  color: $black;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    padding: 1%;
+  }
 }

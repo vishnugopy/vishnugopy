@@ -1,39 +1,69 @@
-$black: #000000;
-$white: #ffffff;
-$whitesmoke: whitesmoke;
-$grey: #bbbbbb;
-$firstbreakpoint: 1024px;
+:root {
+  --maincolor: #00b3d7;
+  --white: #ffffff;
+  --black: #000000;
+  --maincolorhover: #fbc109;
+  --halfmaincolor: rgba(11, 76, 255, 0.01);
+  --whitesmoke: rgb(245, 245, 245);
+  --glace: #ffffff90;
+  --shadow: #00000036;
+  --homebg: url("https://images.unsplash.com/photo-1500673587002-1d2548cfba1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.dark {
+  --maincolor: #00b3d7;
+  --white: #000000;
+  --black: #ffffff;
+  --maincolorhover: #fbc109;
+  --halfmaincolor: rgba(11, 76, 255, 0.05);
+  --whitesmoke: #131313;
+  --glace: #00000030;
+  --shadow: #ffffff36;
+  --homebg: url("https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+}
+
+$firstbreakpoint: 1100px;
+$maincolor: var(--maincolor);
+$halfmaincolor: var(--halfmaincolor);
+$white: var(--white);
+$whitesmoke: var(--whitesmoke);
+$black: var(--black);
+$maincolorhover: var(--maincolorhover);
+$glace: var(--glace);
+$homebg: var(--homebg);
+$alert: red;
+$secondebutton: rgba(153, 153, 153, 0.089);
+$shadow: var(--shadow);
 
 //fonts
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .darkhtml {
   filter: invert(100%) hue-rotate(180deg);
 }
 
 body {
-  background: whitesmoke;
-  font-family: "Montserrat", sans-serif;
+  background: $whitesmoke;
+  font-family: "Mulish", sans-serif;
   margin: 0 auto;
-  font-size:80%;
   overflow: hidden;
 }
 
 h1 {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
+  margin: 0%;
 }
 
 h2 {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
-  margin: 3% 0%;
+  margin: 0%;
 }
 
 h3 {
   font-weight: 500;
-  margin: 2% 0%;
 }
 
 p,
@@ -57,34 +87,9 @@ p {
   margin: 0%;
 }
 
-.divider {
-  color: $black;
-  font-weight: 500;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-  p {
-    padding: 1%;
-  }
-}
 
-.social {
-  color: $black;
-  font-weight: 500;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-  p {
-    padding: 1%;
-  }
-}
-
-main{
+main {
   width: 60%;
-  margin:1% auto;
+  margin: 1% auto;
 }
