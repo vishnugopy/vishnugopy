@@ -1,0 +1,22 @@
+@import "../../assets/main.scss";
+
+.theme-toggler {
+    .toggle {
+        border: 2px solid $maincolor;
+      width: 80px;
+      height: 40px;
+      background: $white;
+    
+      display: flex;
+      justify-content: flex-start;
+      border-radius: 50px;
+  
+      .round {
+        transition: position 1s ease-in-out;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        background: $black;
+      }
+    }
+  }

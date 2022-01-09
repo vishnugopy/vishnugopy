@@ -1,0 +1,23 @@
+@import "../../assets/main.scss";
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 5%;
+    background: $maincolor;
+
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 1%;
+        border-radius:20px;
+
+        &:hover{
+            background-color: $halfwhite;
+        }
+    }
+}

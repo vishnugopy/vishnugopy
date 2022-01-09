@@ -1,39 +1,36 @@
 :root {
-  --maincolor: #00b3d7;
   --white: #ffffff;
+  --halfwhite: #fafafa26;
   --black: #000000;
-  --maincolorhover: #fbc109;
-  --halfmaincolor: rgba(11, 76, 255, 0.01);
-  --whitesmoke: rgb(245, 245, 245);
   --glace: #ffffff90;
   --shadow: #00000036;
-  --homebg: url("https://images.unsplash.com/photo-1500673587002-1d2548cfba1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  --whitesmoke: rgb(245, 245, 245);
+  --maincolor: #007aff;
+  --maincolorhover: #007bff5b;
 }
 
 .dark {
-  --maincolor: #00b3d7;
   --white: #000000;
+  --halfwhite: #0700003b;
   --black: #ffffff;
-  --maincolorhover: #fbc109;
-  --halfmaincolor: rgba(11, 76, 255, 0.05);
-  --whitesmoke: #131313;
   --glace: #00000030;
   --shadow: #ffffff36;
-  --homebg: url("https://images.unsplash.com/photo-1506059612708-99d6c258160e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  --whitesmoke: #131313;
+  --maincolor: #007aff;
+  --maincolorhover: #007bff5b;
 }
 
 $firstbreakpoint: 1100px;
 $maincolor: var(--maincolor);
-$halfmaincolor: var(--halfmaincolor);
 $white: var(--white);
+$halfwhite: var(--halfwhite);
 $whitesmoke: var(--whitesmoke);
 $black: var(--black);
-$maincolorhover: var(--maincolorhover);
 $glace: var(--glace);
-$homebg: var(--homebg);
-$alert: red;
-$secondebutton: rgba(153, 153, 153, 0.089);
 $shadow: var(--shadow);
+$maincolorhover: var(--maincolorhover);
+$maincolorhover: var(--maincolorhover);
+
 
 //fonts
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
