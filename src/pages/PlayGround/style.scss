@@ -6,6 +6,11 @@
   margin: 0% auto;
   padding: 3%;
   font-size: 80%;
+
+  h2{
+    text-align: center;
+    color: $maincolor;
+  }
 }
 
 .box:nth-child(1) {
