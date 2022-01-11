@@ -1,114 +1,14 @@
-import { Link } from "react-router-dom";
 import "./style.scss";
+import Card from "./Card";
 
 function Slider() {
   return (
     <section className="mainslider">
-      <div className="container">
-        <h2 className="">Mes piles</h2>
-        <div className="slider">
-          <div className="logos">
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-            <Link to="" className="logowithtext">
-              <img
-                src="https://toppng.com/uploads/preview/react-native-svg-transformer-allows-you-import-svg-aperture-science-innovators-logo-11562851994zqcpwozsvy.png"
-                alt="logo"
-              />
-              <span>React</span>
-            </Link>
-          </div>
-        </div>
-      </div>
+      <Card
+        name="React"
+        img="https://coollogo.net/wp-content/uploads/2021/03/React-logo.svg"
+        link="https://reactjs.org/"
+      />
     </section>
   );
 }
