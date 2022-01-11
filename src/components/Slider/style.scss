@@ -1,7 +1,22 @@
 @import "../../assets/main.scss";
 
+.maislider {
+  margin: 10% auto;
+  h2 {
+    text-transform: capitalize;
+    margin-bottom: 2%;
+    color: $maincolor;
+  }
+  .slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 .logowithtext {
-  margin: 1% 0%;
+  margin: 1%;
   text-decoration: none;
   width: 150px;
   height: 150px;
@@ -11,18 +26,22 @@
   padding: 1%;
   border-radius: 15px;
   position: relative;
+  background: $maincolorhover;
 
   &:hover {
-   background: $maincolorhover;
+    background: $black;
   }
 
   img {
     width: 100px;
     height: 100px;
+
+    &:hover {
+      filter: grayscale(50%);
+    }
   }
   img:hover + span {
     display: block;
-    background: $maincolorhover;
   }
 
   span {
@@ -30,12 +49,10 @@
     bottom: 5%;
     display: none;
     text-align: center;
-    color: $black;
+    color: $white;
     font-weight: 600;
   }
 }
-
-
 
 @media screen and (min-width: $firstbreakpoint) {
   .tem {
