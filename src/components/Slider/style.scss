@@ -1,0 +1,78 @@
+@import "../../assets/main.scss";
+
+.mainslider {
+  margin: 10% auto;
+
+  h2 {
+    color: $maincolor;
+    text-transform: capitalize;
+  }
+  .container {
+    overflow: hidden;
+    .slider {
+      animation: slideshow 20s linear infinite;
+      white-space: nowrap;
+
+      &:hover {
+        animation-play-state: paused;
+      }
+      .logos {
+        width: 100%;
+        display: flex;
+        margin: 0px 0;
+        .logowithtext {
+          margin: 5%;
+          text-decoration: none;
+          width: calc(100% / 5);
+          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+            forwards;
+          display: flex;
+          flex-direction: column;
+          padding: 1%;
+          border-radius: 15px;
+
+          &:hover {
+            background: $maincolorhover;
+          }
+          img {
+            width: 100px;
+            height: 100px;
+          }
+
+          img:hover + span {
+            display: block;
+          }
+
+          span {
+            display: none;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes slideshow {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: $firstbreakpoint) {
+  .tem {
+    background: rgb(255, 255, 255);
+  }
+}
