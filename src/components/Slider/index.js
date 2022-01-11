@@ -63,7 +63,7 @@ function Slider() {
 
   return (
     <section className="maislider">
-      <h2>Mes Piles</h2>
+      <h2>Mes Stacks</h2>
       <div className="slider">
       {cards.map((card, index) => (
         <Card key={index} name={card.name} img={card.img} link={card.link} />
