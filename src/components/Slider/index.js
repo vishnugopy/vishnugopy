@@ -19,21 +19,6 @@ function Slider() {
       link: "/react",
     },
     {
-      name: "HTML",
-      img: html,
-      link: "/vue",
-    },
-    {
-      name: "CSS",
-      img: css,
-      link: "/css",
-    },
-    {
-      name: "SVG",
-      img: svg,
-      link: "/svg",
-    },
-    {
       name: "JavaScript",
       img: js,
       link: "/javascript",
@@ -49,6 +34,21 @@ function Slider() {
       link: "/node",
     },
     {
+      name: "HTML",
+      img: html,
+      link: "/vue",
+    },
+    {
+      name: "CSS",
+      img: css,
+      link: "/css",
+    },
+    {
+      name: "SVG",
+      img: svg,
+      link: "/svg",
+    },
+    {
       name: "Sass",
       img: sass,
       link: "/sass",
@@ -58,16 +58,15 @@ function Slider() {
       img: worldpress,
       link: "/worldpress",
     },
-    
   ];
 
   return (
     <section className="maislider">
       <h2>Mes Stacks</h2>
       <div className="slider">
-      {cards.map((card, index) => (
-        <Card key={index} name={card.name} img={card.img} link={card.link} />
-      ))}
+        {cards.map((card, index) => (
+          <Card key={index} name={card.name} img={card.img} link={card.link} />
+        ))}
       </div>
     </section>
   );
