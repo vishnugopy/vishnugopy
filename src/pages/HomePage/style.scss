@@ -7,6 +7,12 @@
       display: flex;
       justify-content: space-around;
       cursor: url("../../assets/img/mouse.svg") 4 12, auto;
+      -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently */
       h1 {
         color: $maincolor;
         font-size: 3rem;
