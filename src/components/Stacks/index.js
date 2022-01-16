@@ -11,7 +11,7 @@ import worldpress from "../../assets/img/stacks/worldpress.svg";
 import sass from "../../assets/img/stacks/sass.svg";
 import node from "../../assets/img/stacks/node.svg";
 
-function Slider() {
+function Stacks() {
   const cards = [
     {
       name: "React",
@@ -63,4 +63,4 @@ function Slider() {
   );
 }
 
-export default Slider;
+export default Stacks;

@@ -1,7 +1,7 @@
 @import "../../assets/main.scss";
 
 .maislider {
-  margin: 10% auto;
+  margin: 50% auto; 
   h2 {
     text-transform: capitalize;
     margin-bottom: 2%;
@@ -55,7 +55,7 @@
 }
 
 @media screen and (min-width: $firstbreakpoint) {
-  .tem {
-    background: rgb(255, 255, 255);
+  .maislider {
+    margin: 10% auto 10% auto; 
   }
 }

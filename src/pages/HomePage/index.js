@@ -2,7 +2,8 @@ import "./style.scss";
 import { useEffect } from "react";
 
 import SocialButtons from "../../components/SocialButtons";
-import Slider from "../../components/Slider";
+import Stacks from "../../components/Stacks";
+import MyWorks from "../../components/MyWorks";
 
 function PlayGround() {
   function randomHsl() {
@@ -38,7 +39,8 @@ function PlayGround() {
             <span className="my-position">Développeur web</span>
           </div>
         <SocialButtons/>
-        <Slider />
+        <Stacks />
+        <MyWorks />
         </div>
 
       </main>

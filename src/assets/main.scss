@@ -6,6 +6,7 @@
   --shadow: rgba(0,0,0,0.19);
   --whitesmoke: rgb(245, 245, 245);
   --maincolor: #007aff;
+  --mainglacy:#007affb0;
   --maincolorhover: #007bff11;
 }
 
@@ -17,11 +18,13 @@
   --shadow: rgba(255, 255, 255, 0.19);
   --whitesmoke: #131313;
   --maincolor: #007aff;
+  --mainglacy:#007affb0;
   --maincolorhover: #007bff5b;
 }
 
 $firstbreakpoint: 1100px;
 $maincolor: var(--maincolor);
+$mainglacy: var(--mainglacy);
 $white: var(--white);
 $halfwhite: var(--halfwhite);
 $whitesmoke: var(--whitesmoke);
@@ -71,6 +74,7 @@ summary,
 input,
 label,
 button {
+  font-family: "Mulish", sans-serif;
   line-height: 150%;
 }
 
