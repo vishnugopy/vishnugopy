@@ -1,10 +1,3 @@
-### Hi there 👋
-
-Je suis un développeur javascript et j'apprends des trucs pour m'améliorer. 😋
-
-Vous pouvez également visiter ma page en cliquant
-
-
 ### Hi there, I'm vishnugopy[website] 👋 
 
 [![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://codestackr.com)
@@ -12,11 +5,8 @@ Vous pouvez également visiter ma page en cliquant
 
 ## I'm a Developer, Designer a!!
 
-- 🔭 I am a javascript developp
-- 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Contribute more to Open Source projects
-- ⚡ Fun fact: I love to draw and play guitar / drums
+- I’m currently learning everything 🤣
+
 
 ### Connect with me:
 
