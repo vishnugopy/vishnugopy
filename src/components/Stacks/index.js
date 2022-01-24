@@ -53,7 +53,7 @@ function Stacks() {
 
   return (
     <section className="maislider">
-      <h2>Mes Stacks</h2>
+      <h2>Mes Stacks Outils que j'adore </h2>
       <div className="slider">
         {cards.map((card, index) => (
           <Card key={index} name={card.name} img={card.img} />

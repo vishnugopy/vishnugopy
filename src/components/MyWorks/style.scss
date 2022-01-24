@@ -1,47 +1,42 @@
 @import "../../assets/main.scss";
 
 .workcard {
-  margin: 1%;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 200px;
+  margin: 2% auto;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2%;
-  padding: 1% 2%;
   border-radius: 15px;
+  border: 2px solid $maincolor;
   display: flex;
   flex-direction: column;
   background: $maincolorhover;
+  position: relative;
+  overflow: hidden;
 
   img {
-    height: 20%;
+    height: 25%;
     width: auto;
-  }
-
-  h3 {
-    color: $maincolor;
-    font-weight: 700;
-    margin: 0%;
+    margin: 0 auto;
   }
 
   a {
-    width: 80%;
-    margin: 3% auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
     color: $black;
     text-decoration: none;
     button {
-      color: $maincolor;
-      border-radius: 25px;
+      color: $white;
       font-weight: 700;
-      margin: 0 auto;
-      width: 80%;
+      width: 100%;
       display: flex;
-      gap: 5%;
       align-items: center;
       justify-content: center;
-      background: $white;
+      background: $maincolor;
       border: 2px solid $maincolor;
       padding: 5% 15%;
       cursor: pointer;

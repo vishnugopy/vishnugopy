@@ -9,9 +9,14 @@ function MyWorks() {
       link: "https://www.ambient-it.net/",
     },
     {
-      name: "Samestillameal",
+      name: "Same Still A Meal",
       img: "https://static.wixstatic.com/media/21c4d2_2be3f6617f5a4d01892d93a118d1c286~mv2.png/v1/fill/w_84,h_84,al_c,q_85,usm_0.66_1.00_0.01/SAME-logoCercleJaune2%202.webp",
       link: "https://www.samestillameal.com/",
+    },
+    {
+      name: "The Best Talks",
+      img: "https://thebesttalks.blogspot.com/favicon.ico",
+      link: "https://thebesttalks.blogspot.com",
     }
   ];
 

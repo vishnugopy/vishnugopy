@@ -3,8 +3,8 @@ import "./style.scss";
 function WorkCard(props) {
   return (
     <div className="workcard">
+      <p>{props.name}</p>
       <img src={props.img} alt={props.name} />
-      <h3>{props.name}</h3>
       <a href={props.link} target="_blank" rel="noreferrer">
         <button className="projectbutton">
           <span className="material-icons">public</span>
