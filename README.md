@@ -1,6 +1,8 @@
-### Hi there 👋
+## Hi there, I'm [vishnugopy] .👋 
+### I'm a Web Designer and Developer !
 
-Je suis un développeur javascript et j'apprends des trucs pour m'améliorer. 😋
+- I’m currently learning everything 🤣
+- I am coding some projects to develop my skills. 
 
-Vous pouvez également visiter ma page en cliquant
-https://vishnugopy.dev/
+
+[vishnugopy]: https://vishnugopy.dev
