@@ -38,11 +38,11 @@ function PlayGround() {
           <div className="positions">
             <span className="my-position">Développeur web</span>
           </div>
+       
         <SocialButtons/>
+        </div>
         <Stacks />
         <MyWorks />
-        </div>
-
       </main>
     </section>
   );

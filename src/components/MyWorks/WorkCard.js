@@ -1,12 +1,15 @@
 import "./style.scss";
+import webicon from "../../assets/img/webicon.svg";
 
 function WorkCard(props) {
   return (
     <div className="workcard">
-      <p>{props.name}</p>
-      <img src={props.img} alt={props.name} />
-      <a href={props.link} target="_blank" rel="noreferrer">
-        <button className="projectbutton">
+      <div className="workplace">
+        <img src={webicon} alt="web" className="webicon" />
+        <p>{props.name}</p>
+      </div>
+      <a href={props.link} target="_blank" rel="noreferrer" className="projectbutton">
+        <button >
           <span className="material-icons">public</span>
           <p>Visite</p>
         </button>
