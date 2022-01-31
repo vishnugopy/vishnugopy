@@ -1,58 +1,91 @@
 @import "../../assets/main.scss";
 
 .workcard {
-  margin: 2% 2%; 
- 
+  margin: 2% auto;
+  width: 80%;
+  padding: 10%;
+  background: $maincolorhover;
+
+  img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  h3 {
+    margin: 2%;
+    color: $maincolor;
+  }
+
   .workplace {
-    background: $maincolorhover;
-    width: 300px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-weight: 500;
-    border-radius: 15px 15px 0 0; 
+    .tags {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 5%;
+      margin: 5% auto;
 
-    .webicon{
-      width: 80px;
-
-      &:hover {
-        filter: brightness(110%);
+      span {
+        color: black;
+        padding: 2% 3%;
+        border-radius: 5px;
+        margin: 1% 0%;
       }
-    }
-
-    p{
-      color: $black;
-      font-weight: 600;
     }
   }
 
-  .projectbutton {
-    width: 300px;
+  a {
+    background: #000;
+    width: max-content;
     text-decoration: none;
-    padding: 0;
-    button{
-      cursor: pointer;
-      border-radius: 0 0 15px 15px;
-      background: $maincolor;
-      color: white;
-      border: none;
-      padding: 5% 15%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      gap: 3%;
-      width: 100%;
+    font-weight: 800;
+  }
 
-      &:hover {
-        background: $black;
-      }
+  button {
+    margin: 0 0 0 auto;
+    cursor: pointer;
+    background: $maincolor;
+    color: white;
+    border: none;
+    padding: 3% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    gap: 3%;
+    width: 300px;
 
+    &:hover {
+      background: $black;
     }
   }
 }
 
 @media screen and (min-width: $firstbreakpoint) {
+  .workcard {
+    margin: 2% auto;
+    width: 80%;
+    padding: 3%;
+
+    img {
+      width: 20%;
+      margin: 0 auto;
+    }
+
+    .workplace {
+      .tags {
+        gap: 2%;
+        margin: 2% auto;
+
+        span {
+          padding: 1% 2%;
+          margin: 1% 0%;
+        }
+      }
+    }
+
+    button {
+      padding: 1.5% 2%;
+    }
+  }
 }
