@@ -1,19 +1,6 @@
-import { useEffect } from "react";
 import "./style.scss";
 
 function WorkCard(props) {
-  function randomHsl() {
-    return "hsla(" + Math.random() * 360 + ", 100%, 50%, 0.05)";
-  }
-
-  useEffect(() => {
-    const Tags = document.querySelectorAll(".tags span");
-
-    Tags.forEach((element) => {
-      element.style.background = randomHsl();
-    });
-  }, []);
-
   return (
     <div className="workcard">
       <div className="workplace">
@@ -30,10 +17,8 @@ function WorkCard(props) {
           rel="noreferrer"
           className="projectbutton"
         >
-          <button>
-            <span className="material-icons">public</span>
-            <p>Visite</p>
-          </button>
+          <span className="material-icons">public</span>
+          <p>Visite</p>
         </a>
       </div>
     </div>
