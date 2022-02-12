@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import SocialButtons from "../../components/SocialButtons";
 import Stacks from "../../components/Stacks";
 import MyWorks from "../../components/MyWorks";
+import MyApps from "../../components/MyApps";
 
 function PlayGround() {
   function randomHsl() {
@@ -42,6 +43,7 @@ function PlayGround() {
         <SocialButtons/>
         </div>
         <Stacks />
+        <MyApps />
         <MyWorks />
       </main>
     </section>

@@ -1,23 +1,40 @@
 @import "../../assets/main.scss";
 
 .workcard {
-  margin: 2% auto;
-  width: 80%;
-  padding: 10%;
+  border-radius: 15px;
+  margin: 2% 2%;
+  padding: 5%;
+  width: 100%;
+  height: max-content;
   background: $maincolorhover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
 
-  img {
-    width: 50%;
-    margin: 0 auto;
-    display: block;
+  .nameandimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2%;
+  
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  
+    h3 {
+      margin: 2%;
+      color: $maincolor;
+    }
   }
 
-  h3 {
-    margin: 2%;
-    color: $maincolor;
-  }
+  
 
   .workplace {
+    width: 100%;
+    margin: 10% auto;
     .tags {
       display: flex;
       flex-direction: row;
@@ -30,7 +47,7 @@
         padding: 2% 3%;
         border-radius: 5px;
         margin: 1% 0%;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.698);
 
         &:hover {
           box-shadow: 10 10 50px rgba(0, 0, 0, 10);
@@ -40,20 +57,22 @@
   }
 
   a {
+   display: block;
+    border-radius: 5px;
+    margin: 1% auto;
+    width: auto;
     text-decoration: none;
     font-weight: 800;
-    margin: 0 0 0 auto;
     cursor: pointer;
     background: $maincolor;
     color: white;
     border: none;
-    padding: 3% 3%;
+    display: block;
+    padding: 3% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 800;
-    gap: 3%;
-    width: 300px;
 
     &:hover {
       background: $black;
@@ -63,30 +82,10 @@
 }
 
 @media screen and (min-width: $firstbreakpoint) {
-  .workcard {
-    margin: 2% auto;
-    width: 80%;
-    padding: 3%;
-
-    img {
-      width: 20%;
-      margin: 0 auto;
-    }
-
-    .workplace {
-      .tags {
-        gap: 2%;
-        margin: 2% auto;
-
-        span {
-          padding: 1% 2%;
-          margin: 1% 0%;
-        }
-      }
-    }
-
-    a {
-      padding: 1.5% 1%;
-    }
-  }
+ .workcard{
+    width: 25%;
+    margin: 1%;
+    padding: 2%;
+  
+ }
 }

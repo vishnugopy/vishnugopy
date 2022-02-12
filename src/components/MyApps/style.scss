@@ -1,0 +1,34 @@
+@import "../../assets/main.scss";
+
+.AppContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  background: $maincolorhover;
+  text-decoration: none;
+  border-radius: 15px;
+
+  &:hover {
+    background: $black;
+  }
+
+  img{
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+  }
+
+  span{
+  text-align: center;
+  font-weight: 500;
+  color: $maincolor;
+  margin: 5% auto 0% auto;
+    }
+
+}
+
+@media screen and (min-width: $firstbreakpoint) {
+  .maislider {
+    margin: 10% auto 10% auto; 
+  }
+}

@@ -4,8 +4,10 @@ function WorkCard(props) {
   return (
     <div className="workcard">
       <div className="workplace">
-        <h3>{props.name}</h3>
+        <div className="nameandimage">
         <img src={props.img} alt="web" className="webicon" />
+        <h3>{props.name}</h3>
+        </div>  
         <div className="tags">
           {props.tags.map((tag, index) => (
             <span key={index}>#{tag}</span>
