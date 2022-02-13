@@ -32,6 +32,8 @@
 
   &:hover {
     background: $black;
+
+   
   }
 
   img {
@@ -42,16 +44,13 @@
       filter: grayscale(50%);
     }
   }
-  img:hover + span {
-    display: block;
-  }
+
 
   span {
     position: absolute;
     bottom: 5%;
-    display: none;
     text-align: center;
-    color: $white;
+    color: $maincolor;
     font-weight: 600;
   }
 }
