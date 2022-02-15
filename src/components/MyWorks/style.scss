@@ -34,7 +34,7 @@
 
   .workplace {
     width: 100%;
-    margin: 10% auto;
+    margin: 5% auto;
     .tags {
       display: flex;
       flex-direction: row;
@@ -83,9 +83,9 @@
 
 @media screen and (min-width: $firstbreakpoint) {
  .workcard{
-    width: 25%;
+    width: 42%;
     margin: 1%;
-    padding: 2%;
+    padding: 0% 2%;
   
  }
 }
