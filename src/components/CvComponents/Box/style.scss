@@ -9,13 +9,18 @@
     border-radius: 10px;
     background-color: $white;
     cursor: grab;
-    border: 2px solid $white;
+    border: 2px solid $maincolorhover;
     z-index: 1;
     opacity: 0;
     &:hover{
-        border: 2px solid $maincolorhover;
+        border: 2px solid $white;
     }
     animation: slidein 1s forwards;
+
+    h2,h3{
+      margin: 0;
+      font-weight: 600;
+    }
 }
 
 
