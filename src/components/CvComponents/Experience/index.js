@@ -12,7 +12,7 @@ const Experience = () => {
           <li>Création d'une plug-in en utilisant PHP</li>
           <li>Réalisation d'un function pour mettre le site en version PDF</li>
           <li>Intégration de texte et les media</li>
-          <li>Animation pour l’amélioration du site</li>
+          <li>Animation pour l&apos;amélioration du site</li>
         </ul>
       </div>
       <div>

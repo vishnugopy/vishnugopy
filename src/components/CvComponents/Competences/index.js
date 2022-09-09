@@ -12,11 +12,12 @@ const Competences = (props) => {
             <li>Express</li>
             <li>React</li>
           </ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
+          <li>Typescript</li>
+          <li>Next.js</li>
+          <li>HTML5/CSS3</li>
           <li>SCSS/SASS</li>
           <li>SVG</li>
-          <li>Wordpress</li>
+          <li>WordPress</li>
           <li>SQL</li>
           <li>Typographie</li>
         </ul>
@@ -24,16 +25,10 @@ const Competences = (props) => {
 
       <div>
         <h3>Modélisation en 3d</h3>
-        <ul>
-         <li>Blender</li>
-        </ul>
       </div>
 
       <div>
         <h3>Montage Photo et Vidéo</h3>
-        <ul>
-          <li>Pack Adobe</li>
-        </ul>
       </div>
 
       <div>
