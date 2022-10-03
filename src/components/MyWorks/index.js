@@ -1,27 +1,48 @@
 import "./style.scss";
 import WorkCard from "./WorkCard";
 
-import webicon from "../../assets/img/webicon.svg";
-
 function MyWorks() {
   const cards = [
     {
-      name: "Ambient It",
-      link: "https://www.ambient-it.net/",
-      img: webicon,
-      tags: ["Php" , "HTML", "CSS", "SVG", "Animations", "Responsive"],
+      name: "Swimango , Paris",
+      link: "https://www.swimango.com",
+      about: "Création d'un site permettant de réserver une piscine en ligne.",
+      tags: ["Next", "SQL", "CSS", "SVG", "Animations", "Responsive", "Strip"],
     },
     {
-      name: "Same Still A Meal",
+      name: "Ambient It , Paris",
+      link: "https://www.ambient-it.net/",
+      about:
+        "Participation à la création d'un plugin à partir de zéro et j'ai également fait quelques animations avec SVG.",
+      tags: ["Php", "HTML", "CSS", "SVG", "Animations", "Responsive"],
+    },
+    {
+      name: "Bpol , Polond",
+      link: "https://www.ambient-it.net/",
+      about:
+        "Participation à la création d'une API pour communiquer avec Google G-suit en utilisant Python et MySQL.",
+      tags: ["Php", "HTML", "CSS", "SVG", "Animations", "Responsive"],
+    },
+    {
+      name: "Same Still A Meal , Bordeaux",
+      about:
+        "Recréation d'un site web WIX avec des réactions qui incluent des paiements. ",
       link: "https://www.samestillameal.com/",
-      img: webicon,
-      tags: ["React" , "JavaScript", "SCSS", "ExpressJs", "NodeJs" , "SQL" , "Responsive"],
+      tags: [
+        "React",
+        "JavaScript",
+        "SCSS",
+        "ExpressJs",
+        "NodeJs",
+        "SQL",
+        "Responsive",
+      ],
     },
     {
       name: "The Best Talks",
+      about: "Maintenir le site et corriger les bugs",
       link: "https://thebesttalks.blogspot.com",
-      img: webicon,
-      tags: ["Blogger" , "Intergration", "Responsive"],
+      tags: ["Blogger", "Intergration", "Responsive"],
     },
   ];
 
@@ -35,9 +56,9 @@ function MyWorks() {
           <WorkCard
             key={index}
             name={card.name}
-            img={card.img}
             link={card.link}
             tags={card.tags}
+            about={card.about}
           />
         ))}
       </div>

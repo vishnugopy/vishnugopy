@@ -12,16 +12,19 @@
   justify-content: space-between;
   position: relative;
 
-  .nameandimage {
-    h3 {
-      margin: 2%;
-      color: $maincolor;
-    }
-  }
-
   .workplace {
     width: 100%;
     margin: 5% auto;
+
+    h3 {
+      color: $maincolor;
+    }
+
+    .about{
+      color: $black;
+      opacity: 0.8;
+    }
+
     .tags {
       display: flex;
       flex-direction: row;

@@ -1,7 +1,6 @@
 import "./style.scss";
 import Card from "./Card";
 
-
 function MyApps() {
   const cards = [
     {
@@ -14,12 +13,11 @@ function MyApps() {
       img: "https://play-lh.googleusercontent.com/kiRbL8iWAc5S9xMP-jwQUmR1WTg-rpoZZBk6s5clBF3FBDRzj7LyyOXTXTKoGXXzPKs=s180-rw",
       link: "https://play.google.com/store/apps/details?id=com.stupidversion.updown",
     },
-    
   ];
 
   return (
     <section className="maislider">
-      <h2>Mes applications sur play store</h2>
+      <h2>Mes applications sur play store .</h2>
       <div className="slider">
         {cards.map((card, index) => (
           <Card key={index} name={card.name} img={card.img} link={card.link} />

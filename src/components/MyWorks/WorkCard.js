@@ -5,9 +5,9 @@ function WorkCard(props) {
   return (
     <div className="workcard">
       <div className="workplace">
-        <div className="nameandimage">
-          <h3>{props.name}</h3>
-        </div>
+        <h3>{props.name}</h3>
+
+        <p className="about">{props.about}</p>
         <div className="tags">
           {props.tags.map((tag, index) => (
             <span key={index}>{tag}</span>
