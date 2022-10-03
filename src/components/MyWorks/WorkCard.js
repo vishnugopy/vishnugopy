@@ -1,16 +1,16 @@
 import "./style.scss";
+import { BsArrowUpRightCircle } from "react-icons/bs";
 
 function WorkCard(props) {
   return (
     <div className="workcard">
       <div className="workplace">
         <div className="nameandimage">
-        <img src={props.img} alt="web" className="webicon" />
-        <h3>{props.name}</h3>
-        </div>  
+          <h3>{props.name}</h3>
+        </div>
         <div className="tags">
           {props.tags.map((tag, index) => (
-            <span key={index}>#{tag}</span>
+            <span key={index}>{tag}</span>
           ))}
         </div>
         <a
@@ -19,8 +19,8 @@ function WorkCard(props) {
           rel="noreferrer"
           className="projectbutton"
         >
-          <span className="material-icons">public</span>
           <p>Visite</p>
+          <BsArrowUpRightCircle />
         </a>
       </div>
     </div>

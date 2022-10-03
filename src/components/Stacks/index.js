@@ -19,8 +19,6 @@ import materialui from "../../assets/img/stacks/mui.svg";
 import blender from "../../assets/img/stacks/blender.svg";
 import adobe from "../../assets/img/stacks/adobe.svg";
 
-
-
 function Stacks() {
   const cards = [
     {
@@ -58,7 +56,8 @@ function Stacks() {
     {
       name: "WorldPress",
       img: worldpress,
-    },   {
+    },
+    {
       name: "NPM",
       img: npm,
     },
@@ -79,7 +78,7 @@ function Stacks() {
       img: bootstrap,
     },
     {
-      name: "Material UI",
+      name: "MUI",
       img: materialui,
     },
     {

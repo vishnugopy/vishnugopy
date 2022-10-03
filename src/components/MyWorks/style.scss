@@ -12,25 +12,12 @@
   justify-content: space-between;
   position: relative;
 
-  .nameandimage{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 2%;
-  
-    img {
-      width: 25px;
-      height: 25px;
-    }
-  
+  .nameandimage {
     h3 {
       margin: 2%;
       color: $maincolor;
     }
   }
-
-  
 
   .workplace {
     width: 100%;
@@ -43,11 +30,11 @@
       margin: 5% auto;
 
       span {
-        color: $black;
+        color: black;
         padding: 2% 3%;
         border-radius: 5px;
         margin: 1% 0%;
-        background: rgba(255, 255, 255, 0.698);
+        background: white;
 
         &:hover {
           box-shadow: 10 10 50px rgba(0, 0, 0, 10);
@@ -57,35 +44,33 @@
   }
 
   a {
-   display: block;
-    border-radius: 5px;
-    margin: 1% auto;
-    width: auto;
-    text-decoration: none;
-    font-weight: 800;
-    cursor: pointer;
-    background: $maincolor;
-    color: white;
-    border: none;
-    display: block;
-    padding: 3% 10%;
+    margin: 0 0 0 auto;
     display: flex;
+    text-decoration: none;
     align-items: center;
-    justify-content: center;
-    font-weight: 800;
+    justify-content: space-between;
+    gap: 3%;
+    width: 30%;
+    border: 2px solid $maincolor;
+    color: $maincolor;
+    padding: 2% 2% 2% 3%;
+    border-radius: 30px;
+
+    svg {
+      font-size: 30px;
+    }
 
     &:hover {
-      background: $black;
+      background: $maincolor;
       color: $white;
     }
   }
 }
 
 @media screen and (min-width: $firstbreakpoint) {
- .workcard{
+  .workcard {
     width: 42%;
     margin: 1%;
     padding: 0% 2%;
-  
- }
+  }
 }
