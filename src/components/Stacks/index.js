@@ -22,71 +22,54 @@ import adobe from "../../assets/img/stacks/adobe.svg";
 function Stacks() {
   const cards = [
     {
-      name: "React",
       img: react,
     },
     {
-      name: "JavaScript",
       img: js,
     },
     {
-      name: "MySQL",
       img: mysql,
     },
     {
-      name: "Node.js",
       img: node,
     },
     {
-      name: "HTML",
       img: html,
     },
     {
-      name: "CSS",
       img: css,
     },
     {
-      name: "SVG",
       img: svg,
     },
     {
-      name: "Sass",
       img: sass,
     },
     {
-      name: "WorldPress",
       img: worldpress,
     },
     {
-      name: "NPM",
       img: npm,
     },
     {
-      name: "Linux",
       img: linux,
     },
     {
-      name: "GitHub",
       img: github,
     },
     {
-      name: "VS Code",
       img: vscode,
     },
     {
-      name: "Bootstrap",
       img: bootstrap,
     },
     {
-      name: "MUI",
       img: materialui,
     },
     {
-      name: "Blender",
       img: blender,
     },
     {
-      name: "PackAdobe",
       img: adobe,
     },
   ];

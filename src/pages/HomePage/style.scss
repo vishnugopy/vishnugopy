@@ -2,7 +2,7 @@
 
 .home {
   .hero-section {
-    padding: 30% 2%;
+    padding: 30px 10px;
     .my-name {
       display: flex;
       justify-content: space-around;
@@ -11,7 +11,7 @@
         color: $maincolor;
         font-size: 3rem;
         font-weight: 900;
-        padding: 1% 0 0 0;
+        padding: 5px 0 0 0;
         &:hover {
           transform: scale(1.1);
          
@@ -24,7 +24,7 @@
       justify-content: center;
       align-items: center;
       gap: 2%;
-      margin-bottom: 2%;
+      margin-bottom: 10px;
 
       .my-position {
         color: $black;
@@ -41,7 +41,7 @@
 @media screen and (min-width: $firstbreakpoint) {
   .home {
     .hero-section {
-      padding: 10% 2%;
+      padding: 20px 10px;
 
       .my-name {
         h1 {
