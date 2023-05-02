@@ -86,14 +86,14 @@ function Stacks() {
       img: blender,
     },
     {
-      name: "Pack Adobe",
+      name: "PackAdobe",
       img: adobe,
     },
   ];
 
   return (
     <section className="maislider">
-      <h2>Mes stacks et les outils que j'adore .</h2>
+      <h2>Mes stacks .</h2>
       <div className="slider">
         {cards.map((card, index) => (
           <Card key={index} name={card.name} img={card.img} />

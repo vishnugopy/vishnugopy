@@ -5,18 +5,20 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 5% 5%;
-  background: $maincolor;
 
   a {
-    color: white;
+    color: $maincolor;
     text-decoration: none;
     font-weight: 600;
     padding: 1% 2%;
     border-radius: 15px;
 
     &:hover {
-      background-color: $halfwhite;
+      
+      color: $black;
     }
+
+ 
   }
 
   .logo {
