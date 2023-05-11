@@ -19,7 +19,7 @@ function WorkCard(props) {
           rel="noreferrer"
           className="projectbutton"
         >
-          <p>Visite</p>
+          <p>Voir</p>
           <BsArrowUpRightCircle />
         </a>
       </div>

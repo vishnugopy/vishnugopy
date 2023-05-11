@@ -7,7 +7,6 @@ function Card(props) {
         src={props.img}
         alt={props.name}
       />
-      <span>{props.name}</span>
     </div>
   );
 }

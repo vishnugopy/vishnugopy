@@ -5,8 +5,9 @@
   --glace: #ffffff90;
   --shadow: rgba(0,0,0,0.19);
   --whitesmoke: whitesmoke;
-  --maincolor: #007aff;
+  --maincolor: #0F3460;
   --maincolorhover: #00000005;
+  --imgFilter: hue-rotate(230deg) brightness(0);
 }
 
 .dark {
@@ -16,8 +17,9 @@
   --glace: #00000030;
   --shadow: rgba(255, 255, 255, 0.19);
   --whitesmoke: #131313;
-  --maincolor: #007aff;
+  --maincolor: #618abc;
   --maincolorhover: #ffffff11;
+  --imgFilter: brightness(0) invert(1);;
 }
 
 $firstbreakpoint: 1100px;
@@ -31,6 +33,7 @@ $glace: var(--glace);
 $shadow: var(--shadow);
 $maincolorhover: var(--maincolorhover);
 $maincolorhover: var(--maincolorhover);
+$imageFilter: var(--imgFilter);
 
 
 //fonts
@@ -91,14 +94,15 @@ p {
 
 
 main {
-  width: 60%;
+  width: 1200px;
   margin: 1% auto;
+  transition: all 0.5s ease;
 }
 
 
 @media screen and (max-width: $firstbreakpoint) {
   main {
-    width: 98%;
-    padding: 1%;
+    width: 90%;
+    padding: 5%;
   }
 }

@@ -76,7 +76,7 @@ function Stacks() {
 
   return (
     <section className="maislider">
-      <h2>Mes stacks .</h2>
+      <h2>Mes stacks.</h2>
       <div className="slider">
         {cards.map((card, index) => (
           <Card key={index} name={card.name} img={card.img} />

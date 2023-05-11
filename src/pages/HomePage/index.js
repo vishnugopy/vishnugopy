@@ -8,7 +8,9 @@ import Footer from "../../components/Footer";
 
 function PlayGround() {
   function randomHsl() {
-    return "hsla(" + Math.random() * 360 + ", 100%, 50%, 0.5)";
+    return "hsla(240, 100%, " + Math.random() * 50 + "1%, 0.5)";
+
+
   }
 
   useEffect(() => {
@@ -39,8 +41,8 @@ function PlayGround() {
           <div className="positions">
             <span className="my-position">Développeur web</span>
           </div>
-       
-        <SocialButtons/>
+
+          <SocialButtons />
         </div>
         <Stacks />
         <MyWorks />
