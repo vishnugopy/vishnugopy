@@ -1,13 +1,12 @@
 :root {
-  --white: #e9e9e9;
-  --halfwhite: #fafafa26;
+  --white: #ffffff;
+  --halfwhite: #fafafa47;
   --black: #000000;
   --glace: #ffffff90;
   --shadow: rgba(0,0,0,0.19);
   --whitesmoke: whitesmoke;
   --maincolor: #007aff;
-  --mainglacy:#007affb0;
-  --maincolorhover: #007bff08;
+  --maincolorhover: #00000005;
 }
 
 .dark {
@@ -18,8 +17,7 @@
   --shadow: rgba(255, 255, 255, 0.19);
   --whitesmoke: #131313;
   --maincolor: #007aff;
-  --mainglacy:#007affb0;
-  --maincolorhover: #007bff5b;
+  --maincolorhover: #ffffff11;
 }
 
 $firstbreakpoint: 1100px;

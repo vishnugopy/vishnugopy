@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import SocialButtons from "../../components/SocialButtons";
 import Stacks from "../../components/Stacks";
 import MyWorks from "../../components/MyWorks";
-import MyApps from "../../components/MyApps";
 import Footer from "../../components/Footer";
 
 function PlayGround() {
@@ -44,7 +43,6 @@ function PlayGround() {
         <SocialButtons/>
         </div>
         <Stacks />
-        <MyApps />
         <MyWorks />
         <Footer />
       </main>

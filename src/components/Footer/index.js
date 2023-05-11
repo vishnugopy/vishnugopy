@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section className="footer">
       <p>
-       This website is made with ❤️
+      Ce site est réalisé avec ❤️  par Vishnu Gopy
       </p>
     </section>
   );
