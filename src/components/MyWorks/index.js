@@ -26,13 +26,13 @@ function MyWorks() {
       name: "Swimango , Paris - Site Web",
       link: "https://www.swimango.com",
       about: "Création d'un site permettant de réserver une piscine en ligne.",
-      tags: ["2021" , "Next", "SQL", "CSS", "SVG", "Animations", "Responsive", "Strip"  , "FullStack"]
+      tags: ["2021" , "Next", "SQL", "CSS", "SVG", "Animations", "Responsive", "stripe"  , "FullStack"]
     },
     {
       name: "Gando , Paris - Site Web",
       link: "https://mygando.com/",
       about: "Création d'un site permettant de louer des voitures en ligne dans les villes guadeloupe , Guyane , Réunion et Martinique.",
-      tags: ["2023" , "React", "SQL", "CSS", "SVG", "Animations", "Responsive", "Strip" , "firebase" , "FullStack"]
+      tags: ["2023" , "React", "NoSQL", "CSS", "SVG", "Animations", "Responsive", "stripe" , "firebase" , "FullStack"]
     },
     {
       name: "Ambient It , Paris - Site Web",
