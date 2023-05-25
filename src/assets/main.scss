@@ -1,7 +1,7 @@
 :root {
   --white: #ffffff;
-  --halfwhite: #fafafa47;
-  --black: #000000;
+  --halfwhite: #e5e5e52e;
+  --black: #101010;
   --glace: #ffffff90;
   --shadow: rgba(0,0,0,0.19);
   --whitesmoke: whitesmoke;
@@ -13,12 +13,12 @@
 .dark {
   --white: #000000;
   --halfwhite: #0700003b;
-  --black: #ffffff;
+  --black: #e4e4e4;
   --glace: #00000030;
   --shadow: rgba(255, 255, 255, 0.19);
   --whitesmoke: #131313;
   --maincolor: #618abc;
-  --maincolorhover: #ffffff11;
+  --maincolorhover: #1d1c20;
   --imgFilter: brightness(0) invert(1);;
 }
 

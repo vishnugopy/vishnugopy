@@ -5,28 +5,29 @@
   gap: 2%;
   flex-wrap: wrap;
 
-  a{
+  a {
     text-decoration: none;
   }
 
-  .linkbutton{
+  .linkbutton {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:4%;
+    padding: 4%;
     margin: 1% 1% 1% 0;
-    border-radius:25px;
+    border-radius: 25px;
     background: $maincolorhover;
+    border: 1px solid $maincolorhover;
     color: $maincolor;
     gap: 2%;
+    transition: all 0.2s ease;
 
-    &:hover{
-      background: black;
-      color: white;
+    &:hover {
+      filter: brightness(2);
     }
 
-    .linkname{
+    .linkname {
       display: none;
     }
   }
@@ -34,10 +35,10 @@
 
 @media screen and (min-width: $firstbreakpoint) {
   .SocialButtons {
-    .linkbutton{
-      border-radius:40px;
+    .linkbutton {
+      border-radius: 40px;
       padding: 2%;
-      .linkname{
+      .linkname {
         display: block;
       }
     }

@@ -16,7 +16,9 @@
       width: 25px;
       height: 25px;
       background: white;
-
+      transition: all 0.2s ease;
+      
+      
       &:hover {
         background: $black;
       }
