@@ -24,7 +24,8 @@
     transition: all 0.2s ease;
 
     &:hover {
-      filter: brightness(2);
+      outline: 2px solid $shadow;
+      transition: outline 0.1s ease;
     }
 
     .linkname {

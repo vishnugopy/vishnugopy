@@ -2,7 +2,6 @@ import "./style.scss";
 import { useEffect } from "react";
 
 import SocialButtons from "../../components/SocialButtons";
-import Stacks from "../../components/Stacks";
 import MyWorks from "../../components/MyWorks";
 import Footer from "../../components/Footer";
 
@@ -42,7 +41,6 @@ function HomePage() {
 
           <SocialButtons />
         </div>
-        <Stacks />
         <MyWorks />
         <Footer />
       </main>

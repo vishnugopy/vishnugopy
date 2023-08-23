@@ -3,7 +3,7 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 
 function WorkCard(props) {
   return (
-    <div className="workcard">
+    <a href={props.link} rel="noreferrer" className="workcard">
       <div className="workplace">
         <h3>{props.name}</h3>
 
@@ -13,17 +13,9 @@ function WorkCard(props) {
             <span key={index}>{tag}</span>
           ))}
         </div>
-        <a
-          href={props.link}
-          target="_blank"
-          rel="noreferrer"
-          className="projectbutton"
-        >
-          <p>Voir</p>
-          <BsArrowUpRightCircle />
-        </a>
+        <BsArrowUpRightCircle />
       </div>
-    </div>
+    </a>
   );
 }
 
