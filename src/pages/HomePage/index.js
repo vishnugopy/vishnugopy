@@ -6,11 +6,9 @@ import Stacks from "../../components/Stacks";
 import MyWorks from "../../components/MyWorks";
 import Footer from "../../components/Footer";
 
-function PlayGround() {
+function HomePage() {
   function randomHsl() {
     return "hsla(240, 100%, " + Math.random() * 50 + "1%, 0.5)";
-
-
   }
 
   useEffect(() => {
@@ -52,4 +50,4 @@ function PlayGround() {
   );
 }
 
-export default PlayGround;
+export default HomePage;
