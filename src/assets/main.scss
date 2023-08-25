@@ -2,11 +2,11 @@
   --maincolor: #0a6ebd;
   --black: #101010;
   --white: #ffffff;
-  --halfwhite: #0f33603f;
-  --glace: #ffffff90;
-  --shadow: rgba(0, 0, 0, 0.19);
   --whitesmoke: whitesmoke;
-  --maincolorhover: #00000005;
+  --shadow: rgba(0, 0, 0, 0.19);
+
+  --tags: #f6f6f6;
+  --grey: #00000005;
   --imgFilter: hue-rotate(230deg) brightness(0);
 }
 
@@ -14,11 +14,10 @@
   --maincolor: #0a6ebd;
   --black: #e4e4e4;
   --white: #000000;
-  --halfwhite: #0f3360a9;
-  --glace: #00000030;
-  --shadow: rgba(255, 255, 255, 0.19);
   --whitesmoke: #131313;
-  --maincolorhover: #1d1c20;
+  --shadow: rgba(255, 255, 255, 0.19);
+  --tags: #2f2f2f8a;
+  --grey: #1d1c20;
   --imgFilter: brightness(0) invert(1);
 }
 
@@ -26,13 +25,11 @@ $firstbreakpoint: 1100px;
 $maincolor: var(--maincolor);
 $mainglacy: var(--mainglacy);
 $white: var(--white);
-$halfwhite: var(--halfwhite);
+$tags: var(--tags);
 $whitesmoke: var(--whitesmoke);
 $black: var(--black);
-$glace: var(--glace);
 $shadow: var(--shadow);
-$maincolorhover: var(--maincolorhover);
-$maincolorhover: var(--maincolorhover);
+$grey: var(--grey);
 $imageFilter: var(--imgFilter);
 
 //fonts

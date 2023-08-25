@@ -7,11 +7,15 @@
   padding: 5%;
   width: 100%;
   height: max-content;
-  background: $maincolorhover;
+  background: $grey;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  view-timeline-name: --item-timeline;
+  animation: slidein both;
+  animation-timeline: --item-timeline;
+  animation-range: contain 0% contain 50%;
 
   &:hover {
     outline: 2px solid $shadow;
@@ -28,11 +32,11 @@
 
     p {
       color: $black;
-      opacity: 0.9;
+      opacity: 0.8;
     }
 
     .about {
-      font-weight: 200;
+      font-weight: 400;
       color: $black;
     }
 
@@ -45,12 +49,13 @@
       margin: 5% auto;
 
       span {
-        font-weight: 200;
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        background: $tags;
         color: $black;
         padding: 2% 3%;
         border-radius: 5px;
         margin: 1% 0%;
-        background: $halfwhite;
       }
     }
   }
@@ -77,6 +82,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+  }
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0.1;
+    transform: translateY(5vh);
   }
 }
 

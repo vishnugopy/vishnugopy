@@ -1,14 +1,9 @@
 @import "../../assets/main.scss";
 
 .footer {
- text-align: center;
- padding: 5%;
- color: $black;
- background: $whitesmoke;
-}
-
-@media screen and (min-width: $firstbreakpoint) {
-  .footer {
-    background: $white;
-  }
+  text-align: center;
+  padding: 5%;
+  color: $black;
+  background: $whitesmoke;
+  border-radius: 20px;
 }
