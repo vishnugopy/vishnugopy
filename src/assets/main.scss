@@ -1,23 +1,23 @@
 :root {
+  --maincolor: #0a6ebd;
+  --black: #101010;
   --white: #ffffff;
   --halfwhite: #0f33603f;
-  --black: #101010;
   --glace: #ffffff90;
   --shadow: rgba(0, 0, 0, 0.19);
   --whitesmoke: whitesmoke;
-  --maincolor: #0f3460;
   --maincolorhover: #00000005;
   --imgFilter: hue-rotate(230deg) brightness(0);
 }
 
 .dark {
+  --maincolor: #0a6ebd;
+  --black: #e4e4e4;
   --white: #000000;
   --halfwhite: #0f3360a9;
-  --black: #e4e4e4;
   --glace: #00000030;
   --shadow: rgba(255, 255, 255, 0.19);
   --whitesmoke: #131313;
-  --maincolor: #618abc;
   --maincolorhover: #1d1c20;
   --imgFilter: brightness(0) invert(1);
 }
@@ -92,7 +92,6 @@ p {
 main {
   width: 1200px;
   margin: 1% auto;
-  transition: all 0.5s ease;
 }
 
 @media screen and (max-width: $firstbreakpoint) {

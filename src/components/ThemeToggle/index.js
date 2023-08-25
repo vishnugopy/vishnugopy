@@ -13,9 +13,9 @@ function Toggle() {
 
   const checkTheme = () => {
     if (theme === true) {
-      document.body.classList.remove("dark");
-    } else {
       document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
     }
   };
   checkTheme();

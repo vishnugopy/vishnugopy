@@ -1,9 +1,9 @@
 @import "../../assets/main.scss";
 
 .home {
-  .hero-section {
+  .heroSection {
     padding: 30px 10px;
-    .my-name {
+    .myName {
       display: flex;
       justify-content: space-around;
 
@@ -41,10 +41,10 @@
 
 @media screen and (min-width: $firstbreakpoint) {
   .home {
-    .hero-section {
+    .heroSection {
       padding: 20px 10px;
 
-      .my-name {
+      .myName {
         h1 {
           font-size: 8rem;
         }

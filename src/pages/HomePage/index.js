@@ -1,29 +1,15 @@
 import "./style.scss";
-import { useEffect } from "react";
 
 import SocialButtons from "../../components/SocialButtons";
 import MyWorks from "../../components/MyWorks";
 import Footer from "../../components/Footer";
 
 function HomePage() {
-  function randomHsl() {
-    return "hsla(240, 100%, " + Math.random() * 50 + "1%, 0.5)";
-  }
-
-  useEffect(() => {
-    const nameElement = document.querySelectorAll(".my-name h1");
-    nameElement.forEach((element) => {
-      element.addEventListener("mouseover", () => {
-        element.style.color = randomHsl();
-      });
-    });
-  }, []);
-
   return (
     <section className="home">
       <main>
-        <div className="hero-section">
-          <div className="my-name">
+        <div className="heroSection">
+          <div className="myName">
             <h1>V</h1>
             <h1>I</h1>
             <h1>S</h1>
