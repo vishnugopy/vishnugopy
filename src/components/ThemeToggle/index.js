@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 
 function Toggle() {
   const [theme, setTheme] = useState(true);
-  const themebutton = document.querySelector(".toggle");
 
   useEffect(() => {
     const checkTheme = () => {
