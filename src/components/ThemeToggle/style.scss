@@ -1,23 +1,20 @@
 @import "../../assets/main.scss";
 
-.theme-toggler {
-  .toggle {
-    background: $maincolor;
-    width: 50px;
-    height: 25px;
-    display: flex;
-    justify-content: flex-start;
-    border-radius: 50px;
-    cursor: pointer;
+.themeToggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  border: 2px solid $black;
+  padding: 5px 10px;
+  cursor: pointer;
 
-    .round {
-      border-radius: 50px;
-      border-radius: 50px;
-      width: 25px;
-      height: 25px;
-      background: white;
-      transition: position 0.2s ease;
-    }
+  &:hover {
+    background: $maincolor;
+    color: $white;
+    border-color: $maincolor;
+    transition: background 0.2s ease;
   }
 }
 

@@ -6,7 +6,12 @@ function Footer() {
     <section className="footer">
       <p>Ce site est réalisé avec ❤️ par Vishnu Gopy</p>
       <div className="content">
-        <a className="download" href="./Vishnugopy.pdf" download>
+        <a
+          className="download"
+          href="./vishnugopy.pdf"
+          download="vishnugopy.pdf"
+          target="_blanc"
+        >
           Télécharger mon curriculum vitae
         </a>
         <Toggle />

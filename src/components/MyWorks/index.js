@@ -127,7 +127,6 @@ function MyWorks() {
 
   return (
     <section className="maislider">
-      <h2>Mes Projets et Participation</h2>
       <div className="slider">
         {cards.map((card, index) => (
           <WorkCard

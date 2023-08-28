@@ -4,37 +4,28 @@ import { useState, useEffect } from "react";
 
 function Toggle() {
   const [theme, setTheme] = useState(true);
-  const [buttonToggle, setButtonToggle] = useState("");
+  const themebutton = document.querySelector(".toggle");
 
   useEffect(() => {
-    const themebutton = document.querySelector(".toggle");
-    setButtonToggle(themebutton);
-  }, []);
+    const checkTheme = () => {
+      if (theme === false || localStorage.getItem("theme") === "true") {
+        document.body.classList.remove("dark");
+      } else {
+        document.body.classList.add("dark");
+      }
+    };
 
-  const checkTheme = () => {
-    if (theme === true) {
-      document.body.classList.add("dark");
-    } else {
-      document.body.classList.remove("dark");
-    }
-  };
-  checkTheme();
+    checkTheme();
+  }, [theme]);
 
   const toggleTheme = () => {
     setTheme(!theme);
     localStorage.setItem("theme", theme);
-    if (theme) {
-      buttonToggle.style.justifyContent = "flex-end";
-    } else {
-      buttonToggle.style.justifyContent = "flex-start";
-    }
   };
 
   return (
-    <div className="theme-toggler">
-      <div className="toggle" onClick={toggleTheme}>
-        <div className="round"></div>
-      </div>
+    <div className="themeToggler" onClick={toggleTheme}>
+      Changez de thème
     </div>
   );
 }
