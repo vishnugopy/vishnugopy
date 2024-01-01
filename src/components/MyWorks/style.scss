@@ -63,13 +63,11 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .workcard {
-    view-timeline-name: --item-timeline;
-    animation: slidein both;
-    animation-timeline: --item-timeline;
-    animation-range: contain 0% contain 50%;
-  }
+.workcard {
+  view-timeline-name: --item-timeline;
+  animation: slidein both;
+  animation-timeline: --item-timeline;
+  animation-range: contain 0% contain 50%;
 }
 
 .maislider {
