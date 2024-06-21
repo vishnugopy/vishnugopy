@@ -1,5 +1,6 @@
 import Toggle from "../ThemeToggle";
 import "./style.scss";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -15,6 +16,9 @@ function Footer() {
           Télécharger mon curriculum vitae
         </a>
         <Toggle />
+        <Link to="/sign" className="contact">
+          Help riva
+        </Link>
       </div>
     </section>
   );
