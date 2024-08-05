@@ -16,9 +16,6 @@ function Footer() {
           Télécharger mon curriculum vitae
         </a>
         <Toggle />
-        <Link to="/sign" className="contact">
-          Help riva
-        </Link>
       </div>
     </section>
   );

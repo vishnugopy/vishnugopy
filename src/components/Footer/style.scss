@@ -18,9 +18,9 @@
     .download {
       color: $black;
       border-radius: 5px;
-      border: 2px solid $black;
-      padding: 5px 10px;
+      padding: 10px 15px;
       text-decoration: none;
+      background: rgba(128, 128, 128, 0.176);
 
       &:hover {
         background: $maincolor;
