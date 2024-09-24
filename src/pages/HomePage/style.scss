@@ -29,8 +29,8 @@
       .my-position {
         color: $black;
         font-size: 1rem;
-        letter-spacing: 0.5rem;
-        width: max-content;
+        letter-spacing: 0.1rem;
+
         text-align: center;
         text-transform: uppercase;
       }
@@ -52,7 +52,7 @@
       .positions {
         .my-position {
           font-size: 1.5rem;
-          letter-spacing: 2rem;
+          letter-spacing: 0.7rem;
         }
       }
     }

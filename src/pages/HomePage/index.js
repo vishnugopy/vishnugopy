@@ -22,7 +22,9 @@ function HomePage() {
             <h1>Y</h1>
           </div>
           <div className="positions">
-            <span className="my-position">Développeur web</span>
+            <span className="my-position">
+              Concepteur et developpeur d'applications web
+            </span>
           </div>
 
           <SocialButtons />

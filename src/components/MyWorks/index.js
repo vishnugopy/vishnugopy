@@ -14,8 +14,16 @@ function MyWorks() {
         "JavaScript",
         "VSCode",
         "Extension",
-        "ChatGpt3",
+        "ChatGPT",
       ],
+    },
+
+    {
+      name: "InConstruction - Npm Package",
+      link: "https://www.npmjs.com/package/inconstruction?activeTab=readme",
+      about:
+        "inconstruction est un package npm qui ajoute une superposition 'En construction' avec un message personnalisable à tous les enfants enveloppés dans React ou Next.js.",
+      tags: ["Mon Projet", "2024", "TypeScript", "NPM", "Package", "React"],
     },
     {
       name: "ToDo - Application Android ",

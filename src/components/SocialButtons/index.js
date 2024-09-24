@@ -9,12 +9,12 @@ function SocialButtons() {
         target="_blanc"
       >
         <span className="material-icons">alternate_email</span>
-        <p className="linkname">Email</p>
+        <p className="linkname">Par Email</p>
       </a>
 
       <a href="tel:0663376422" className="linkbutton" target="_blanc">
         <span className="material-icons">local_phone</span>
-        <p className="linkname">Call</p>
+        <p className="linkname">Contactez-Moi</p>
       </a>
 
       <a
@@ -32,7 +32,7 @@ function SocialButtons() {
         target="_blanc"
       >
         <span className="material-icons">attach_money</span>
-        <p className="linkname">Don</p>
+        <p className="linkname">Supportez-Moi</p>
       </a>
     </section>
   );

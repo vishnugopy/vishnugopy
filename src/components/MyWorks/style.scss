@@ -12,6 +12,9 @@
   flex-direction: column;
   justify-content: space-between;
 
+  /* Standard animation applied */
+  animation: slidein 1s ease both;
+
   &:hover {
     outline: 2px solid $shadow;
     transition: outline 0.1s ease;
@@ -63,34 +66,33 @@
   }
 }
 
-.workcard {
-  view-timeline-name: --item-timeline;
-  animation: slidein both;
-  animation-timeline: --item-timeline;
-  animation-range: contain 0% contain 50%;
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateY(5vh); /* Slide in from below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .maislider {
   margin: 0 auto 100px auto;
   padding: 30px 0;
+
   h2 {
     text-transform: none;
     margin-bottom: 50px;
     color: $maincolor;
   }
+
   .slider {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-  }
-}
-
-@keyframes slidein {
-  from {
-    opacity: 0.1;
-    transform: translateY(5vh);
   }
 }
 
