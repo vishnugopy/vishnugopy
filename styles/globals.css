@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom styles */
+body.dark {
+  @apply bg-black text-white;
+}
+
+body.light {
+  @apply bg-white text-gray-900;
+}
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fadeInUp 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  }
+  .delay-100 {
+    animation-delay: 0.1s;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,4 +1,3 @@
-import "./style.scss";
 import WorkCard from "./WorkCard";
 
 function MyWorks() {
@@ -134,17 +133,22 @@ function MyWorks() {
   ];
 
   return (
-    <section className="maislider">
-      <div className="slider">
-        {cards.map((card, index) => (
-          <WorkCard
-            key={index}
-            name={card.name}
-            link={card.link}
-            tags={card.tags}
-            about={card.about}
-          />
-        ))}
+    <section id="works" className="py-16 bg-gray-50 dark:bg-gray-900">
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
+          Mes travaux
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {cards.map((card, index) => (
+            <WorkCard
+              key={index}
+              name={card.name}
+              link={card.link}
+              tags={card.tags}
+              about={card.about}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

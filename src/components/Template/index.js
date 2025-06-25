@@ -1,7 +1,9 @@
-import "./style.scss";
-
-function Tem() {
-  return <section className=""></section>;
+function Template() {
+  return (
+    <div className="template">
+      <h1>Template Component</h1>
+    </div>
+  );
 }
 
-export default Tem;
+export default Template;

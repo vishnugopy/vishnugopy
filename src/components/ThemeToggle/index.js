@@ -1,31 +1,29 @@
-import "./style.scss";
-import React from "react";
 import { useState, useEffect } from "react";
 
 function Toggle() {
-  const [theme, setTheme] = useState(true);
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
-    const checkTheme = () => {
-      if (theme === false || localStorage.getItem("theme") === "true") {
-        document.body.classList.remove("dark");
-      } else {
-        document.body.classList.add("dark");
-      }
-    };
-
-    checkTheme();
-  }, [theme]);
+    const savedTheme = localStorage.getItem("theme") || "dark";
+    setTheme(savedTheme);
+    document.body.className = savedTheme;
+  }, []);
 
   const toggleTheme = () => {
-    setTheme(!theme);
-    localStorage.setItem("theme", theme);
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
+    document.body.className = newTheme;
   };
 
   return (
-    <div className="themeToggler" onClick={toggleTheme}>
-      Changez de thème
-    </div>
+    <button
+      className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+      onClick={toggleTheme}
+      aria-label="Toggle theme"
+    >
+      <span className="text-lg">{theme === "dark" ? "☀️" : "🌙"}</span>
+    </button>
   );
 }
 

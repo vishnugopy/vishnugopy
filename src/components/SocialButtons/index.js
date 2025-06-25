@@ -1,40 +1,36 @@
-import "./style.scss";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function SocialButtons() {
   return (
-    <section className="SocialButtons">
+    <div className="flex justify-center space-x-6 mt-8">
       <a
-        href="mailto:vishnugoby0010@gmail.com"
-        className="linkbutton"
-        target="_blanc"
+        href="https://github.com/vishnugopy"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-110"
+        aria-label="GitHub"
       >
-        <span className="material-icons">alternate_email</span>
-        <p className="linkname">Par Email</p>
+        <FaGithub className="text-xl" />
       </a>
-
-      <a href="tel:0663376422" className="linkbutton" target="_blanc">
-        <span className="material-icons">local_phone</span>
-        <p className="linkname">Contactez-Moi</p>
-      </a>
-
       <a
-        href="https://goo.gl/maps/KZydxKouq5si5raeA"
-        className="linkbutton"
-        target="_blanc"
+        href="https://www.linkedin.com/in/vishnugopy/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-110"
+        aria-label="LinkedIn"
       >
-        <span className="material-icons">location_on</span>
-        <p className="linkname">Adresse</p>
+        <FaLinkedin className="text-xl" />
       </a>
-
       <a
-        href="https://www.paypal.com/paypalme/vishnugopy"
-        className="linkbutton"
-        target="_blanc"
+        href="https://twitter.com/vishnugopy"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-110"
+        aria-label="Twitter"
       >
-        <span className="material-icons">attach_money</span>
-        <p className="linkname">Supportez-Moi</p>
+        <FaTwitter className="text-xl" />
       </a>
-    </section>
+    </div>
   );
 }
 
