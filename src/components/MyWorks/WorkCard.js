@@ -2,19 +2,19 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 
 function WorkCard({ name, link, tags, about }) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+    <div className="bg-white dark:bg-slate-900/90 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
+      <div className="p-8">
+        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 line-clamp-2 hover:line-clamp-none transition-all">
           {name}
         </h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+        <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed text-base">
           {about}
         </p>
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="flex flex-wrap gap-2 mb-6">
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="px-3 py-1 text-xs font-medium bg-primary/10 text-primary rounded-full"
+              className="px-4 py-1.5 text-sm font-medium bg-blue-900/10 text-primary rounded-full hover:bg-blue-900/20 transition-colors"
             >
               {tag}
             </span>
@@ -25,11 +25,11 @@ function WorkCard({ name, link, tags, about }) {
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-blue-900 text-white rounded-lg hover:bg-blue-900/90 transition-all duration-300 transform hover:scale-105 font-medium shadow-md hover:shadow-lg"
           >
             Voir le projet
             <svg
-              className="w-4 h-4 ml-2"
+              className="w-5 h-5 ml-2 animate-pulse"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
